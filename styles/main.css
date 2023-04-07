@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,800;1,100;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Cabin", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ------------------------HIDE THE SIDE BAR AT A CERTAIN HEIGHT -------------*/
@@ -90,7 +90,7 @@ body header .navbar ul li {
   cursor: pointer;
 }
 body header .navbar ul li:hover {
-  color: #70ff00;
+  color: rgba(19, 76, 232, 0.5294117647);
   /* add animation on hover  */
 }
 body header .navbar ul li > span {
@@ -186,7 +186,7 @@ body header .dropdown_menu ul li {
   cursor: pointer;
 }
 body header .dropdown_menu ul li:hover {
-  color: #70ff00;
+  color: rgba(19, 76, 232, 0.5294117647);
 }
 body header .dropdown_menu ul li > img {
   position: relative;
@@ -323,7 +323,7 @@ body .hero_inner .hero_bottom_right .bottom_box .link_text {
   font-size: 1.3rem;
   line-height: 2rem;
   cursor: pointer;
-  color: #70ff00;
+  color: rgba(19, 76, 232, 0.5294117647);
   text-decoration: underline;
 }
 @media screen and (min-width: 1200px) {
@@ -507,9 +507,9 @@ body .projects_display {
   }
 }
 body .projects_display .inverse, body .projects_display_inner {
-  border: 1px solid #70ff00;
+  border: 1px solid rgba(19, 76, 232, 0.5294117647);
   border-radius: 1rem;
-  background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+  background: linear-gradient(130.36deg, #e9e4e4 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
   width: 100%;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -534,7 +534,7 @@ body .projects_display .inverse {
   flex-direction: row-reverse !important;
 }
 body .projects_top {
-  border: 1px solid #70ff00;
+  border: 1px solid rgba(19, 76, 232, 0.5294117647);
   border-radius: 1rem;
   border-top: none;
   border-right: none;
@@ -594,7 +594,7 @@ body .projects_stack > ul li {
 
 /* --------------------VARIABLES-------------------- */
 .primary_text {
-  color: #70ff00;
+  color: rgba(19, 76, 232, 0.5294117647);
 }
 .primary_text.big {
   font-size: 4rem;
@@ -805,7 +805,7 @@ body .projects_stack > ul li {
   font-size: 1.2rem;
 }
 .action_btns > div:hover {
-  color: #70ff00;
+  color: rgba(19, 76, 232, 0.5294117647);
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -850,7 +850,7 @@ body .projects_stack > ul li {
   aspect-ratio: 1/1;
 }
 .footer_items ul li:hover {
-  color: #70ff00;
+  color: rgba(19, 76, 232, 0.5294117647);
   font-weight: 700;
   font-size: 1.6rem;
   font-family: "Courier Prime";
@@ -1034,7 +1034,7 @@ body .projects_stack > ul li {
   display: none;
   position: fixed;
   right: 5px;
-  background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+  background: linear-gradient(130.36deg, #e9e4e4 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
   top: 50%;
   border-radius: 4rem;
   transform: translateY(-50%);
@@ -1077,11 +1077,11 @@ body .projects_stack > ul li {
   background: #fff;
 }
 .scroll_indicator a:hover::after {
-  background: #70ff00;
+  background: rgba(19, 76, 232, 0.5294117647);
 }
 .scroll_indicator a.active_link::after {
   content: " ";
-  background: #70ff00;
+  background: rgba(19, 76, 232, 0.5294117647);
   transform: rotate(-45deg);
 }
 .scroll_indicator a::before {
@@ -1092,7 +1092,7 @@ body .projects_stack > ul li {
   padding: 0.2rem 0.5rem;
   display: flex;
   transform: translateY(-50%);
-  background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+  background: linear-gradient(130.36deg, #e9e4e4 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
   color: #fff;
   font-family: "Courier Prime";
   font-style: normal;
