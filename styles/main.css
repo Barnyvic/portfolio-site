@@ -896,8 +896,8 @@ body .projects_stack > ul li {
     width: 8rem;
   }
   .contact_me:hover {
-    -o-border-image: linear-gradient(rgba(112, 255, 0, 0.55), #ffffff) 30;
-       border-image: linear-gradient(rgba(112, 255, 0, 0.55), #ffffff) 30;
+    -o-border-image: linear-gradient(#76FF7A, #ffffff) 30;
+       border-image: linear-gradient(#76FF7A, #ffffff) 30;
     border-style: solid;
   }
 }

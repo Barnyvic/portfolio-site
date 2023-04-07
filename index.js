@@ -72,7 +72,7 @@ document.onscroll = (e) => {
 /*  */
 
 /* TYPEWRITER FUNCTION */
-const textArray = ["eloper", ".{React.Js}", ".{Next.Js}"];
+const textArray = ["eloper", ".{Node.Js}", ".{Nest.Js}", ".{React.Js}"];
 
 /* function to generate the backspace effect */
 const delWriter = (text, i, cb) => {
