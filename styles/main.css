@@ -90,7 +90,7 @@ body header .navbar ul li {
   cursor: pointer;
 }
 body header .navbar ul li:hover {
-  color: rgba(19, 76, 232, 0.5294117647);
+  color: #76FF7A;
   /* add animation on hover  */
 }
 body header .navbar ul li > span {
@@ -116,7 +116,7 @@ body header .navbar_inner .logo {
   color: #f2f2f2;
 }
 body header .navbar_inner .logo p > span {
-  color: #828282;
+  color: #bbb9b9;
 }
 @media screen and (min-width: 992px) {
   body header .navbar_inner .logo {
@@ -186,7 +186,7 @@ body header .dropdown_menu ul li {
   cursor: pointer;
 }
 body header .dropdown_menu ul li:hover {
-  color: rgba(19, 76, 232, 0.5294117647);
+  color: #76FF7A;
 }
 body header .dropdown_menu ul li > img {
   position: relative;
@@ -323,7 +323,7 @@ body .hero_inner .hero_bottom_right .bottom_box .link_text {
   font-size: 1.3rem;
   line-height: 2rem;
   cursor: pointer;
-  color: rgba(19, 76, 232, 0.5294117647);
+  color: #76FF7A;
   text-decoration: underline;
 }
 @media screen and (min-width: 1200px) {
@@ -507,7 +507,7 @@ body .projects_display {
   }
 }
 body .projects_display .inverse, body .projects_display_inner {
-  border: 1px solid rgba(19, 76, 232, 0.5294117647);
+  border: 1px solid #76FF7A;
   border-radius: 1rem;
   background: linear-gradient(130.36deg, #e9e4e4 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
   width: 100%;
@@ -534,7 +534,7 @@ body .projects_display .inverse {
   flex-direction: row-reverse !important;
 }
 body .projects_top {
-  border: 1px solid rgba(19, 76, 232, 0.5294117647);
+  border: 1px solid #76FF7A;
   border-radius: 1rem;
   border-top: none;
   border-right: none;
@@ -594,7 +594,7 @@ body .projects_stack > ul li {
 
 /* --------------------VARIABLES-------------------- */
 .primary_text {
-  color: rgba(19, 76, 232, 0.5294117647);
+  color: #76FF7A;
 }
 .primary_text.big {
   font-size: 4rem;
@@ -805,7 +805,7 @@ body .projects_stack > ul li {
   font-size: 1.2rem;
 }
 .action_btns > div:hover {
-  color: rgba(19, 76, 232, 0.5294117647);
+  color: #76FF7A;
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -850,7 +850,7 @@ body .projects_stack > ul li {
   aspect-ratio: 1/1;
 }
 .footer_items ul li:hover {
-  color: rgba(19, 76, 232, 0.5294117647);
+  color: #76FF7A;
   font-weight: 700;
   font-size: 1.6rem;
   font-family: "Courier Prime";
@@ -1077,11 +1077,11 @@ body .projects_stack > ul li {
   background: #fff;
 }
 .scroll_indicator a:hover::after {
-  background: rgba(19, 76, 232, 0.5294117647);
+  background: #76FF7A;
 }
 .scroll_indicator a.active_link::after {
   content: " ";
-  background: rgba(19, 76, 232, 0.5294117647);
+  background: #76FF7A;
   transform: rotate(-45deg);
 }
 .scroll_indicator a::before {
@@ -1100,7 +1100,7 @@ body .projects_stack > ul li {
   text-transform: uppercase;
   font-size: 1.2rem;
   pointer-events: none;
-  box-shadow: #828282 0px 3px 3px 0px;
+  box-shadow: #bbb9b9 0px 3px 3px 0px;
   transition: all 1s ease;
   opacity: 0;
 }
